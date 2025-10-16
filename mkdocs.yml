@@ -23,10 +23,10 @@ theme:
 # Plugins
 plugins:
  - search:
- - lang: es
+      lang: es
  - mermaid2:
- arguments:
- theme: base
+    arguments:
+      theme: base
 # Extensiones Markdown
 markdown_extensions:
  - admonition
