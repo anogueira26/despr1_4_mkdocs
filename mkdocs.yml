@@ -9,23 +9,24 @@ repo_url: https://github.com/anogueira26/despr1_4_mkdocs.git
 edit_uri: anogueira26/despr1_4_mkdocs/main/docs/
 # Configuración del tema
 theme:
-  name: material
-  language: es
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - search.highlight
-    - search.share
-    - content.code.annotate
-    - content.code.copy
+ name: material
+ language: es
+
+ features:
+ - navigation.tabs
+ - navigation.sections
+ - navigation.top
+ - search.highlight
+ - search.share
+ - content.code.annotate
+ - content.code.copy
 # Plugins
 plugins:
-  - search:
+ - search:
       lang: es
-  - mermaid2:
-      arguments:
-        theme: base
+ - mermaid2:
+    arguments:
+      theme: base
 # Extensiones Markdown
 markdown_extensions:
   - admonition
@@ -48,21 +49,22 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - mdx_math:
+  - pymdownx.arithmatex:
       enable_dollar_delimiter: true
   - pymdownx.tasklist:
       custom_checkbox: true
+
 # Navegación
 nav:
-  - Inicio: index.md
-  - Instalación: instalacion.md
-  - Autenticación:
-      - Sistema de Login: modulos/login.md
-      - Configuración OAuth: modulos/oauth.md
-  - Dashboard:
-      - Vista General: modulos/dashboard.md
-      - Métricas: modulos/metricas.md
-      - Configuración: modulos/settings.md
+ - Inicio: index.md
+ - Instalación: instalacion.md
+ - Autenticación:
+ - Sistema de Login: ./modulos/login.md
+ - Configuración OAuth: ./modulos/oauth.md
+ - Dashboard:
+ - Vista General: ./modulos/dashboard.md
+ - Métricas: ./modulos/metricas.md
+ - Configuración: ./modulos/settings.md
 # Configuración adicional
 extra:
   social:
