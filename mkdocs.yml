@@ -55,15 +55,16 @@ markdown_extensions:
 
 # Navegación
 nav:
-  - Inicio: docs/index.md
-  - Instalación: docs/instalacion.md
+  - Inicio: index.md
+  - Instalación: instalacion.md
   - Autenticación:
-      - Sistema de Login: docs/modulos/login.md
-      - Configuración OAuth: docs/modulos/oauth.md
+      - Sistema de Login: modulos/login.md
+      - Configuración OAuth: modulos/oauth.md
   - Dashboard:
-      - Vista General: docs/modulos/dashboard.md
-      - Métricas: docs/modulos/metricas.md
-      - Configuración: docs/modulos/settings.md
+      - Vista General: modulos/dashboard.md
+      - Métricas: modulos/metricas.md
+      - Configuración: modulos/settings.md
+
 
 # Configuración adicional
 extra:
